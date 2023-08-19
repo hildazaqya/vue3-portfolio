@@ -12,7 +12,7 @@
                 <div
                     class="md:w-[350px] md:h-[350px] shadow-md bg-[#6e7075] overflow-hidden hover:bg-slate-800 me-3 rounded-2xl">
                     <div class="md:w-[350px] md:h-[180px] flex justify-center items-center">
-                        <img src="./img/saintek.jpg" alt="" class="w-full h-full object-cover" />
+                        <img src="@img/saintek.jpg" alt="" class="w-full h-full object-cover" />
                     </div>
                     <div class="w-full p-5">
                         <div class="text-title text-xl font-bold text-white">
@@ -27,7 +27,7 @@
                 <div
                     class="md:w-[350px] md:h-[350px] shadow-md bg-[#6e7075] hover:bg-slate-800 me-3 overflow-hidden rounded-2xl">
                     <div class="md:w-[350px] md:h-[180px] flex justify-center items-center">
-                        <img src="./img/pondok.jpg" alt="" class="w-full h-full object-cover" />
+                        <img src="@img/pondok.jpg" alt="" class="w-full h-full object-cover" />
                     </div>
                     <div class="w-full p-5">
                         <div class="text-title font-bold text-xl text-white">
@@ -50,23 +50,23 @@
             </h1>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4 p-[3px] lg:p-0 lg:gap-6">
                 <div class="cursor-pointer">
-                    <img src="./img/sertif_skilvul_html.jpg" alt=""
+                    <img src="@img/sertif_skilvul_html.jpg" alt=""
                         class="rounded-md shadow-md hover:bg-black hover:opacity-80" />
                 </div>
                 <div class="cursor-pointer">
-                    <img src="./img/sertif_skilvul_css.jpg" alt=""
+                    <img src="@img/sertif_skilvul_css.jpg" alt=""
                         class="rounded-md shadow-md hover:bg-black hover:opacity-80" />
                 </div>
                 <div class="cursor-pointer">
-                    <img src="./img/sertif_skilvul_js.jpg" alt=""
+                    <img src="@img/sertif_skilvul_js.jpg" alt=""
                         class="rounded-md shadow-md hover:bg-black hover:opacity-80" />
                 </div>
                 <div class="cursor-pointer">
-                    <img src="./img/sertif_bigdata.jpg" alt=""
+                    <img src="@img/sertif_bigdata.jpg" alt=""
                         class="rounded-md shadow-md hover:bg-black hover:opacity-80" />
                 </div>
                 <div class="cursor-pointer">
-                    <img src="./img/sertif_python.jpg" alt=""
+                    <img src="@img/sertif_python.jpg" alt=""
                         class="rounded-md shadow-md hover:bg-black hover:opacity-80" />
                 </div>
             </div>

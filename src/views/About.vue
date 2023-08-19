@@ -28,7 +28,7 @@
                         commitment to learning from experts, I aspire to provide valuable
                         and high-quality contributions to upcoming projects.
                     </p>
-                    <img src="./img/foto-hilda-3.jpeg" alt=""
+                    <img src="@img/foto-hilda-3.jpeg" alt=""
                         class="mx-auto my-5 rounded-3xl lg:-mt-5 lg:ml-16 h-[320px] w-[250px]" />
                 </div>
             </div>
@@ -125,7 +125,7 @@
             </h1>
             <div class="item-tech bg-[#56585d] hover:bg-slate-600 mb-11 p-8 md:h-96 md:p-11 rounded-xl" data-aos="zoom-in">
                 <div class="flex flex-col md:flex-row items-center w-full">
-                    <img src="./img/goals_academy.png" alt="" class="h-28" />
+                    <img src="@img/goals_academy.png" alt="" class="h-28" />
                     <div class="flex justify-center flex-col md:ps-5 tracking-wider py-2">
                         <h1 class="font-bold text-white text-xl lg:text-2xl">
                             Front End Developer
@@ -157,7 +157,7 @@
             </div>
             <div class="item-tech bg-[#56585d] hover:bg-slate-600 mb-11 p-8 md:h-96 md:p-11 rounded-xl">
                 <div class="flex flex-col md:flex-row items-center w-full">
-                    <img src="./img/logo_uin.png" alt="" class="mx-auto h-32" />
+                    <img src="@img/logo_uin.png" alt="" class="mx-auto h-32" />
                     <div class="flex justify-center flex-col md:ps-5 tracking-wider py-2">
                         <h1 class="font-bold text-white text-xl lg:text-2xl">
                             Laboratory Assistant Computer Programming I

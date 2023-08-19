@@ -1,7 +1,7 @@
 <template>
         <main class="min-h-[65vh] md:min-h-[80vh] w-screen bg-blacky flex justify-start flex-col items-center" id="home">
         <div class="text-center font-bold tracking-wide text-white text-3xl" data-aos="fade-right">☎️ Contact</div>
-        <div class="text-center text-lg mt-2 text-bluesky" data-aos="fade-right">Feel Free To Contact Me</div>
+        <div class="text-center text-lg mt-2 text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-cyan-500" data-aos="fade-right">Feel Free To Contact Me</div>
         <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 px-3 mt-5 mb-16 md:mb-5 gap-5" data-aos="zoom-in">
             <div
                 class="bg-gray-700 rounded-xl p-5 flex flex-row cursor-pointer max-w-full md:max-w-[400px]">

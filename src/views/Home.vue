@@ -59,7 +59,7 @@
     <div class="flex justify-center">
       <img class="rounded-full bg-cover border-4 pict border-bluesky" width="350" height="350" style="
             box-shadow: rgba(79, 192, 208, 0.44) 0px 0px 73px -9px;
-            background-image: url(./img/foto-hilda-1.jpg);
+            background-image: url(./src/img/foto-hilda-1.jpg);
           " data-aos="flip-left" data-aos-duration="1500" />
     </div>
   </main>

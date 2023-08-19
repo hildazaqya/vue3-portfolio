@@ -1,10 +1,10 @@
 <template>
   <nav class="tracking-wide bg-blacky pt-1 flex flex-row justify-between items-center w-screen h-24">
-    <div class="">
-      <h1 class="ms-5 font-semibold text-bluesky text-xl">
-        <router-link to="/">hildaZaqya();</router-link>
+    <button @click="redirectToHome">
+      <h1 class="cursor-pointer ms-5 font-semibold text-bluesky text-xl">
+       hildaZaqya();
       </h1>
-    </div>
+    </button>
     <ul class="hidden md:flex flex-row list-none text-greys text-sm me-5">
       <li class="px-5 hover:text-bluesky cursor-pointer">
         <router-link to="/">Home</router-link>
@@ -93,4 +93,24 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: #1B1A1A;
 }
+
+nav a.router-link-exact-active,
+nav ul li.router-link-exact-active {
+  display: inline-flex;
+  flex-direction: column;
+  color: white;
+  transition: color 0.3s;
+}
+
+nav a.router-link-exact-active::after ,
+nav ul li.router-link-exact-active::after {
+  display: inline-block;
+  content: "";
+  margin-top: 0.08em;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #4FC0D0;
+}
+
 </style>
