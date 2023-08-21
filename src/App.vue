@@ -70,7 +70,7 @@
     class="block md:hidden fixed bottom-0 left-0 right-0 rounded-t-3xl border border-[#383838] bg-blacky bg-opacity-80 backdrop-blur-md backdrop-opacity-90">
     <nav class="flex justify-around py-4 text-xs text-greys">
       <router-link to="/" class="hover:text-bluesky">Home</router-link>
-      <router-link to="/about" class="hover:text-bluesky">About Me</router-link>
+      <router-link to="/about" class="hover:text-bluesky">About</router-link>
       <router-link to="/education" class="hover:text-bluesky">Education</router-link>
       <router-link to="/project" class="hover:text-bluesky">Project</router-link>
       <router-link to="/contact" class="hover:text-bluesky">Contact</router-link>

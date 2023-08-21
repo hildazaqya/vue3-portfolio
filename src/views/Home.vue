@@ -6,16 +6,14 @@
       <h2 class="text-bluesky text-lg px py-1">Hello Friends, I'm</h2>
       <h1 class="font-bold text-4xl text-white py-1">Hilda Zaqya</h1>
       <h2
-        class="text-bluesky text-bold text-lg py-1 text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-cyan-500">
-        <a href="" class="typewrite" data-period="2000"
-          data-type='[ "Mathematics Student", "Frontend Developer", "Data Enthusiast"]'>
-          <span class="wrap"></span>
-        </a>
-        <p class="text-white text-base py-1">
-          Welcome to my portfolio Website!
-          <span class="wave">🤞🏻</span>
-        </p>
+        class="typewrite text-bluesky text-bold text-lg py-1 text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-cyan-500"
+        ref="typewriter">
+        <span class="wrap">{{ txt }}</span>
       </h2>
+      <p class="text-white text-base py-1">
+        Welcome to my portfolio Website!
+        <span class="wave">🤞🏻</span>
+      </p>
       <div
         class="md:hidden mb-14 mt-3 mx-auto bg-bluesky flex items-center justify-center flex-row px-7 py-2 space-x-3 rounded-lg w-2/3">
         <!-- Instagram -->
@@ -57,10 +55,71 @@
       </div>
     </div>
     <div class="flex justify-center">
-      <img src="@img/pict-hilda.jpg" class="rounded-full bg-cover border-4 pict border-bluesky" width="350" height="350" style="
+      <img src="@img/pict-hilda.jpg" class="rounded-full bg-cover border-4 pict border-bluesky" width="350" height="350"
+        style="
             box-shadow: rgba(79, 192, 208, 0.44) 0px 0px 73px -9px;" data-aos="flip-left" data-aos-duration="1500" />
     </div>
   </main>
 </template>
 
-<style></style>
+<script>
+export default {
+  name: 'Home',
+  data() {
+    return {
+      toRotate: ["Front End Developer", "Mathematics Student", "Data Enthusiast", "ML Enthusiast"],
+      period: 2000,
+      txt: '',
+      loopNum: 0,
+      isDeleting: false,
+    };
+  },
+  mounted() {
+    this.$nextTick(() => {
+      this.tick();
+    });
+  },
+  methods: {
+    tick() {
+      let typewriter = this.$refs.typewriter;
+
+      if (!typewriter) {
+        return;
+      }
+
+      let i = this.loopNum % this.toRotate.length;
+      let fullTxt = this.toRotate[i];
+
+      this.txt = this.isDeleting ? fullTxt.substring(0, this.txt.length - 1) : fullTxt.substring(0, this.txt.length + 1);
+      typewriter.innerHTML = `<span class="wrap">${this.txt}</span>`;
+
+      let that = this;
+      let delta = 200 - Math.random() * 100;
+
+      if (this.isDeleting) {
+        delta /= 2;
+      }
+
+      if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+      } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+      }
+
+      setTimeout(() => {
+        that.tick();
+      }, delta);
+    },
+  }
+}
+</script>
+<style>
+
+.typewrite>.wrap {
+  border-right: 0.08em solid #fff;
+}
+
+</style>
