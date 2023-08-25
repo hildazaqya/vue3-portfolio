@@ -26,7 +26,7 @@
       <div
         class="flex flex-col overflow-hidden hover:-translate-y-3 cursor-pointer max-w-full md:max-w-[400px] bg-gray-700 rounded-xl"
         id="portfolio-website">
-        <div class="w-full h-60 bg-cover" style="background-image: url(./src/img/project_hildawebsite.png)"></div>
+      <img src="@img/project_hildawebsite.png" class="object-cover bg-cover w-full h-60"  />
         <div class="w-full flex flex-col p-4 justify-start mt-1">
           <h2 class="text-xl text-white font-semibold">Portfolio Website</h2>
           <p class="mt-2 text-base text-white">
@@ -36,8 +36,11 @@
           <p class="mt-3 text-bluesky">VueJS, Tailwind CSS</p>
           <div class="flex justify-end my-3 gap-2">
             <a href="https://github.com/hildazaqya/portfolio-vercel-v2">
-              <i class="fa-brands fa-github fa-lg" style="color: #fff"></i></a>
-            <a href="https://hildazaqya.vercel.app/"><i class="fa-solid fa-laptop fa-lg" style="color: #ffff"></i></a>
+              <font-awesome-icon icon="fa-brands fa-github" style="color: #ffffff;" />
+            </a>
+            <a href="https://hildazaqya.vercel.app/">
+              <font-awesome-icon icon="fa-solid fa-laptop" style="color: #ffffff;" />
+            </a>
           </div>
         </div>
       </div>
@@ -46,7 +49,7 @@
       <div
         class="flex flex-col overflow-hidden hover:-translate-y-3 cursor-pointer max-w-full md:max-w-[400px] bg-gray-700 rounded-xl"
         id="portfolio-website">
-        <div class="w-full h-60 bg-cover" style="background-image: url(./src/img/project_goalsacademy.png)"></div>
+      <img src="@img/project_goalsacademy.png" class="object-cover w-full h-60"  />
         <div class="w-full flex flex-col p-4 justify-start mt-1">
           <h2 class="text-xl text-white font-semibold">Goals Academy</h2>
           <p class="mt-2 text-base text-white">
@@ -67,7 +70,7 @@
       <div
         class="flex flex-col overflow-hidden hover:-translate-y-3 cursor-pointer max-w-full md:max-w-[400px] bg-gray-700 rounded-xl"
         id="portfolio-website">
-        <div class="w-full h-60 bg-cover" style="background-image: url(./src/img/project_helyoulips.png)"></div>
+      <img src="@img/project_helyoulips.png" class="object-cover w-full h-60"  />
         <div class="w-full flex flex-col p-4 justify-start mt-1">
           <h2 class="text-xl text-white font-semibold">Helyoulips</h2>
           <p class="mt-2 text-base text-white">
