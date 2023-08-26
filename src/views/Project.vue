@@ -82,7 +82,7 @@ export default {
       <div
         class="flex flex-col overflow-hidden hover:-translate-y-3 cursor-pointer max-w-full md:max-w-[400px] md:h-[492px] bg-gray-700 rounded-xl"
         id="portfolio-website">
-        <img :src="'./src/img/' + item.imageUrl + '.png'" class="object-cover bg-cover w-full h-60" />
+        <img :src="'./src/img/' + item.imageUrl + '.jpg'" class="object-cover bg-cover w-full h-60" />
         <div class="w-full flex flex-col p-4 justify-start mt-1">
           <h2 class="text-xl text-white font-semibold">{{ item.name }}</h2>
           <p class="mt-2 text-base text-white">

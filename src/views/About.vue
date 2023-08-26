@@ -7,12 +7,12 @@ export default {
                 {
                     id: 1,
                     imageUrl: 'https://cdn-icons-png.flaticon.com/512/1051/1051277.png',
-                    name: 'HTML',
+                    name: 'HTML5',
                 },
                 {
                     id: 2,
                     imageUrl: 'https://cdn-icons-png.flaticon.com/512/732/732190.png',
-                    name: 'CSS',
+                    name: 'CSS3',
                 },
                 {
                     id: 3,

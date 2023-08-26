@@ -128,5 +128,5 @@ nav ul li.router-link-exact-active::after {
   border-radius: 5px;
 }
 
-::-webkit-scrollbar-button { width: 20px; }
+::-webkit-scrollbar-button { width: 40px; }
 </style>
