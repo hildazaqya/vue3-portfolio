@@ -25,7 +25,7 @@ export default {
         {
           id: 3,
           name: 'Helyoulips',
-          imageUrl: 'project_helyoulips',
+          imageUrl: 'helyoulips',
           status: 'Helyoulips is an e-commerce website that sells beauty products. This website was created for the final project of a web programming course.',
           techStack: 'HTML5, Bootstrap 5, MySQL',
           github: 'https://github.com/hildazaqya/helyoulips-website',
