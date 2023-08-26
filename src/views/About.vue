@@ -1,3 +1,59 @@
+<script>
+export default {
+    data() {
+        return {
+            activeTab: 1,
+            techstack: [
+                {
+                    id: 1,
+                    imageUrl: 'https://cdn-icons-png.flaticon.com/512/1051/1051277.png',
+                    name: 'HTML',
+                },
+                {
+                    id: 2,
+                    imageUrl: 'https://cdn-icons-png.flaticon.com/512/732/732190.png',
+                    name: 'CSS',
+                },
+                {
+                    id: 3,
+                    imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png',
+                    name: 'JavaScript',
+                },
+                {
+                    id: 4,
+                    imageUrl: 'https://cdn.worldvectorlogo.com/logos/laravel-2.svg',
+                    name: 'Laravel',
+                },
+                {
+                    id: 5,
+                    imageUrl: 'https://img.icons8.com/?size=512&id=rY6agKizO9eb&format=png',
+                    name: 'VueJS',
+                },
+                {
+                    id: 6,
+                    imageUrl: 'https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg',
+                    name: 'Bootstrap',
+                },
+                {
+                    id: 7,
+                    imageUrl: 'https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg',
+                    name: 'Tailwind CSS',
+                },
+                {
+                    id: 8,
+                    imageUrl: 'https://cdn.worldvectorlogo.com/logos/mysql-logo.svg',
+                    name: 'MySQL',
+                },
+                {
+                    id: 9,
+                    imageUrl: 'https://cdn.worldvectorlogo.com/logos/python-5.svg',
+                    name: 'Python',
+                },
+            ]
+        };
+    }
+}
+</script>
 <template>
     <main class="px-5 min-h-[65vh] md:min-h-[80vh] gap-12 w-screen bg-blacky flex flex-col items-center justify-center"
         id="home">
@@ -41,78 +97,15 @@
             </h1>
             <div class="grid grid-cols-2 gap-4 mb-5 md:grid-cols-3 md:gap-8 xl:grid-cols-4 xl:gap-10 2xl:gap-12"
                 data-aos="zoom-out">
-                <div
-                    class="item-tech flex cursor-pointer items-center gap-2 rounded border border-bluesky px-2 py-2 hover:bg-bluesky hover:bg-opacity-10 md:gap-3 lg:px-3">
-                    <div class="flex items-center">
-                        <img class="h-12 w-12" src="https://cdn-icons-png.flaticon.com/512/1051/1051277.png" />
-                    </div>
-                    <div class="flex items-center">
-                        <p class="text-white">HTML5</p>
-                    </div>
-                </div>
-                <div
-                    class="item-tech flex cursor-pointer items-center gap-2 rounded border border-bluesky px-2 py-2 hover:bg-bluesky hover:bg-opacity-10 md:gap-3 lg:px-3">
-                    <div class="flex items-center">
-                        <img class="h-12 w-12" src="https://cdn-icons-png.flaticon.com/512/732/732190.png" />
-                    </div>
-                    <div class="flex items-center">
-                        <p class="text-white">CSS3</p>
-                    </div>
-                </div>
-                <div
-                    class="item-tech flex cursor-pointer items-center gap-2 rounded border border-bluesky px-2 py-2 hover:bg-bluesky hover:bg-opacity-10 md:gap-3 lg:px-3">
-                    <div class="flex items-center">
-                        <img class="h-12 w-12"
-                            src="https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png" />
-                    </div>
-                    <div class="flex items-center">
-                        <p class="text-white">Javascript</p>
-                    </div>
-                </div>
-                <div
-                    class="item-tech flex cursor-pointer items-center gap-2 rounded border border-bluesky px-2 py-2 hover:bg-bluesky hover:bg-opacity-10 md:gap-3 lg:px-3">
-                    <div class="flex items-center">
-                        <img class="h-12 w-12" src="https://cdn.worldvectorlogo.com/logos/laravel-2.svg" />
-                    </div>
-                    <div class="flex items-center">
-                        <p class="text-white">Laravel</p>
-                    </div>
-                </div>
-
-                <div
-                    class="item-tech flex cursor-pointer items-center gap-2 rounded border border-bluesky px-2 py-2 hover:bg-bluesky hover:bg-opacity-10 md:gap-3 lg:px-3">
-                    <div class="flex items-center">
-                        <img class="h-12 w-12" src="https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg" />
-                    </div>
-                    <div class="flex items-center">
-                        <p class="text-white">Bootstrap</p>
-                    </div>
-                </div>
-                <div
-                    class="item-tech flex cursor-pointer items-center gap-2 rounded border border-bluesky px-2 py-2 hover:bg-bluesky hover:bg-opacity-10 md:gap-3 lg:px-3">
-                    <div class="flex items-center">
-                        <img class="h-12 w-12" src="https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg" />
-                    </div>
-                    <div class="flex items-center">
-                        <p class="text-white">Tailwind CSS</p>
-                    </div>
-                </div>
-                <div
-                    class="item-tech flex cursor-pointer items-center gap-2 rounded border border-bluesky px-2 py-2 hover:bg-bluesky hover:bg-opacity-10 md:gap-3 lg:px-3">
-                    <div class="flex items-center">
-                        <img class="h-12 w-12" src="https://cdn.worldvectorlogo.com/logos/mysql-logo.svg" />
-                    </div>
-                    <div class="flex items-center">
-                        <p class="text-white">MySQL</p>
-                    </div>
-                </div>
-                <div
-                    class="item-tech flex cursor-pointer items-center gap-2 rounded border border-bluesky px-2 py-2 hover:bg-bluesky hover:bg-opacity-10 md:gap-3 lg:px-3">
-                    <div class="flex items-center">
-                        <img class="h-12 w-12" src="https://cdn.worldvectorlogo.com/logos/python-5.svg" />
-                    </div>
-                    <div class="flex items-center">
-                        <p class="text-white">Python</p>
+                <div v-for="item in techstack" :key="item.id">
+                    <div
+                        class="item-tech flex cursor-pointer items-center gap-2 rounded border border-bluesky px-2 py-2 hover:bg-bluesky hover:bg-opacity-10 md:gap-3 lg:px-3">
+                        <div class="flex items-center">
+                            <img class="h-12 w-12" :src="item.imageUrl" />
+                        </div>
+                        <div class="flex items-center">
+                            <p class="text-white">{{ item.name }}</p>
+                        </div>
                     </div>
                 </div>
             </div>

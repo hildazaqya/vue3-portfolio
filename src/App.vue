@@ -113,4 +113,20 @@ nav ul li.router-link-exact-active::after {
   background-color: #4FC0D0;
 }
 
+::-webkit-scrollbar {
+  width: 6px; /* for vertical scrollbar */
+  height: 6px; /* for horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #4FC0D0;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4FC0D0;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-button { width: 20px; }
 </style>
