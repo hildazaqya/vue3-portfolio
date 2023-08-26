@@ -31,7 +31,7 @@
                     </div>
                     <div class="w-full p-5">
                         <div class="text-title font-bold text-xl text-white">
-                            Madrasah Aliyah Swasta Al-Hamid
+                            Madrasah Aliyah Swasta Al-Hamid 
                         </div>
                         <div class="text-base text-bluesky pt-1">Jul 2017 - Jul 2020</div>
                         <div class="text-base text-white italic pt-1">
