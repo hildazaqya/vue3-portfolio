@@ -7,7 +7,7 @@ export default {
         {
           id: 1,
           name: 'Portfolio Website',
-          imageUrl: 'project_hildawebsite',
+          imageUrl: 'https://github.com/hildazaqya/vue3-portfolio/blob/main/src/img/project_hildawebsite.jpg?raw=true',
           status: 'This website contains a brief description and my personal experiences.',
           techStack: 'VueJS 3, Tailwind CSS',
           github: 'https://github.com/hildazaqya/vue3-portfolio',
@@ -16,7 +16,7 @@ export default {
         {
           id: 2,
           name: 'Goals Academy',
-          imageUrl: 'project_goalsacademy',
+          imageUrl: 'https://github.com/hildazaqya/vue3-portfolio/blob/main/src/img/project_goalsacademy.jpg?raw=true',
           status: 'Goals Academy is a service business that has a guidance program product for the preparation, writing and material of thesis.',
           techStack: 'Laravel, Bootstrap 5',
           github: 'null',
@@ -25,7 +25,7 @@ export default {
         {
           id: 3,
           name: 'Helyoulips',
-          imageUrl: 'helyoulips',
+          imageUrl: 'https://github.com/hildazaqya/vue3-portfolio/blob/main/src/img/helyoulips.jpg?raw=true',
           status: 'Helyoulips is an e-commerce website that sells beauty products. This website was created for the final project of a web programming course.',
           techStack: 'HTML5, Bootstrap 5, MySQL',
           github: 'https://github.com/hildazaqya/helyoulips-website',
@@ -34,7 +34,7 @@ export default {
         {
           id: 4,
           name: 'Komparasi Algoritma SVM dan Decision Tree untuk Klasifikasi Penyakit Strok',
-          imageUrl: 'project_svmdecisiontree',
+          imageUrl: 'https://github.com/hildazaqya/vue3-portfolio/blob/main/src/img/project_svmdecisiontree.jpg?raw=true',
           status: 'This research employs a data mining approach and is created to fulfill the final assignment of the Computer Selecta Capstone course.',
           techStack: 'Python',
           github: 'https://github.com/hildazaqya/komparasi-algoritma-svm-dan-decisiontree-untuk-klasifikasi-penyakit-strok',
@@ -43,7 +43,7 @@ export default {
         {
           id: 5,
           name: 'Klasifikasi Laporan Masyarakat Kota Malang Menggunakan Metode Naive Bayes',
-          imageUrl: 'project_naivebayes',
+          imageUrl: 'https://github.com/hildazaqya/vue3-portfolio/blob/main/src/img/project_naivebayes.jpg?raw=true',
           status: 'This research utilizes a text mining approach and is created to fulfill the final assignment of the fieldwork internship course.',
           techStack: 'Python',
           github: 'https://github.com/hildazaqya/Klasifikasi-Laporan-Masyarakat-Kota-Malang-Menggunakan-Metode-Naive-Bayes',
@@ -82,7 +82,7 @@ export default {
       <div
         class="flex flex-col overflow-hidden hover:-translate-y-3 cursor-pointer max-w-full md:max-w-[400px] md:h-[492px] bg-gray-700 rounded-xl"
         id="portfolio-website">
-        <img :src="'@img/' + item.imageUrl + '.jpg'" class="object-cover bg-cover w-full h-60" />
+        <img :src="item.imageUrl" class="object-cover bg-cover w-full h-60" />
         <div class="w-full flex flex-col p-4 justify-start mt-1">
           <h2 class="text-xl text-white font-semibold">{{ item.name }}</h2>
           <p class="mt-2 text-base text-white">
