@@ -6,53 +6,58 @@ export default {
             techstack: [
                 {
                     id: 1,
-                    imageUrl: 'https://cdn-icons-png.flaticon.com/512/1051/1051277.png',
-                    name: 'HTML5',
+                    imageUrl: "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+                    name: "React JS",
                 },
                 {
                     id: 2,
-                    imageUrl: 'https://cdn-icons-png.flaticon.com/512/732/732190.png',
-                    name: 'CSS3',
+                    imageUrl:"https://img.icons8.com/?size=512&id=rY6agKizO9eb&format=png",
+                    name: "VueJS",
                 },
                 {
                     id: 3,
-                    imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png',
-                    name: 'JavaScript',
+                    imageUrl: "https://cdn.worldvectorlogo.com/logos/laravel-2.svg",
+                    name: "Laravel",
                 },
                 {
                     id: 4,
-                    imageUrl: 'https://cdn.worldvectorlogo.com/logos/laravel-2.svg',
-                    name: 'Laravel',
+                    imageUrl: "https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg",
+                    name: "Tailwind CSS",
                 },
                 {
                     id: 5,
-                    imageUrl: 'https://img.icons8.com/?size=512&id=rY6agKizO9eb&format=png',
-                    name: 'VueJS',
+                    imageUrl: "https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg",
+                    name: "Bootstrap",
                 },
                 {
                     id: 6,
-                    imageUrl: 'https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg',
-                    name: 'Bootstrap',
+                    imageUrl: "https://cdn-icons-png.flaticon.com/512/1051/1051277.png",
+                    name: "HTML5",
                 },
                 {
                     id: 7,
-                    imageUrl: 'https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg',
-                    name: 'Tailwind CSS',
+                    imageUrl: "https://cdn-icons-png.flaticon.com/512/732/732190.png",
+                    name: "CSS3",
                 },
                 {
                     id: 8,
-                    imageUrl: 'https://cdn.worldvectorlogo.com/logos/mysql-logo.svg',
-                    name: 'MySQL',
+                    imageUrl:"https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png",
+                    name: "JavaScript",
                 },
                 {
                     id: 9,
-                    imageUrl: 'https://cdn.worldvectorlogo.com/logos/python-5.svg',
-                    name: 'Python',
+                    imageUrl: "https://cdn.worldvectorlogo.com/logos/python-5.svg",
+                    name: "Python",
                 },
-            ]
+                {
+                    id: 10,
+                    imageUrl: "https://cdn.worldvectorlogo.com/logos/mysql-logo.svg",
+                    name: "MySQL",
+                },
+            ],
         };
-    }
-}
+    },
+};
 </script>
 <template>
     <main class="px-5 min-h-[65vh] md:min-h-[80vh] gap-12 w-screen bg-blacky flex flex-col items-center justify-center"
@@ -69,13 +74,10 @@ export default {
                 </header>
                 <div class="flex flex-col-reverse lg:flex-row w-full" data-aos="zoom-in-right">
                     <p class="mt-3 text-[13px] md:text-base text-justify text-white">
-                        &nbsp; &nbsp; I am a 7th-semester student majoring in Mathematics
-                        with a strong interest in Data Science and Front-End Development.
-                        I possess skills in data analysis, such as data mining and text
-                        mining, as well as proficiency in key programming languages like
-                        Python. Additionally, I am capable of creating appealing website
-                        interfaces using HTML, CSS, and Javascript, and I have experience
-                        with the Laravel framework.
+                        &nbsp; &nbsp; I am a final semester student majoring in Mathematics with a strong interest in Data Science 
+                        and Front-End Development. I have skills in creating visually appealing website interfaces using React, 
+                        Vue and Laravel. Additionally, I have skills in data analysis, such as data mining and text mining, 
+                        as well as proficiency in major programming languages such as Python.
                         <br class="h-2" />
                         &nbsp; &nbsp; I am actively engaged in self-directed learning and
                         committed to continuously improving my skills in both fields. I am
@@ -116,6 +118,20 @@ export default {
                 Experiences &nbsp;
                 <div class="my-auto h-[1px] w-32 bg-bluesky md:w-96 aos-init aos-animate"></div>
             </h1>
+            <div class="item-tech bg-[#56585d] hover:bg-slate-600 mb-11 p-8 md:h-48 md:p-11 rounded-xl" data-aos="zoom-in">
+                <div class="flex flex-col md:flex-row items-center w-full">
+                    <img src="@img/bangkit-logo.jpg" alt="" class="h-28" />
+                    <div class="flex justify-center flex-col md:ps-5 tracking-wider py-2">
+                        <h1 class="font-bold text-white text-xl lg:text-2xl">
+                            Machine Learning Cohort
+                        </h1>
+                        <h3 class="font-bold text-bluesky text-lg lg:text-xl">
+                            Bangkit Academy
+                        </h3>
+                        <p class="italic text-white text-base">July - December 2023</p>
+                    </div>
+                </div>
+            </div>
             <div class="item-tech bg-[#56585d] hover:bg-slate-600 mb-11 p-8 md:h-96 md:p-11 rounded-xl" data-aos="zoom-in">
                 <div class="flex flex-col md:flex-row items-center w-full">
                     <img src="@img/goals_academy.png" alt="" class="h-28" />
@@ -142,8 +158,8 @@ export default {
                             unnecessary resource usage.
                         </li>
                         <li class="py-1">
-                            Collaborated with UI/UX designers in website development to
-                            ensure attractive and user-friendly design.
+                            Collaborated with UI/UX designers in website development to ensure
+                            attractive and user-friendly design.
                         </li>
                     </ul>
                 </div>
@@ -165,20 +181,20 @@ export default {
                 <div class="md:mt-5 w-full text-base text-white overflow-hidden">
                     <ul class="ps-4 list-outside list-decimal text-justify">
                         <li class="py-1">
-                            Participated in training and got certified to teach courses in
-                            the Python programming language.
+                            Participated in training and got certified to teach courses in the
+                            Python programming language.
                         </li>
                         <li class="py-1">
-                            Taught students in practicum the Python programming language
-                            using software such as Visual Studio Code and Jupyter Notebook.
+                            Taught students in practicum the Python programming language using
+                            software such as Visual Studio Code and Jupyter Notebook.
                         </li>
                         <li class="py-1">
                             Provided direction in learning materials, quizzes, exams, and
                             final assignments to students.
                         </li>
                         <li class="py-1">
-                            Conducted thorough corrections and evaluations of the
-                            performance of each student.
+                            Conducted thorough corrections and evaluations of the performance
+                            of each student.
                         </li>
                     </ul>
                 </div>

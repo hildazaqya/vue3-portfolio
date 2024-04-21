@@ -1,3 +1,27 @@
+<script>
+export default {
+    data() {
+        return {
+            activeTab: 1,
+            Education: [
+                {
+                    id: 1,
+                    imageUrl: "",
+                },
+                {
+                    id: 2,
+                    imageUrl: "",
+                },
+                {
+                    id: 3,
+                    imageUrl: "",
+                },
+            ],
+        };
+    },
+};
+</script>
+
 <template>
     <main class="min-h-[65vh] md:min-h-[80vh] w-screen bg-blacky flex justify-start flex-col items-center" id="home">
         <section id="education" class="lg:w-[1000px] lg:h-[480px] px-7 md:px-5">
