@@ -118,6 +118,34 @@ export default {
                 Experiences &nbsp;
                 <div class="my-auto h-[1px] w-32 bg-bluesky md:w-96 aos-init aos-animate"></div>
             </h1>
+            <div class="item-tech bg-[#56585d] hover:bg-slate-600 mb-11 p-8 md:h-96 md:p-11 rounded-xl">
+                <div class="flex flex-col md:flex-row items-center w-full">
+                    <img src="@img/logo_uin.png" alt="" class="mx-auto h-32" />
+                    <div class="flex justify-center flex-col md:ps-5 tracking-wider py-2">
+                        <h1 class="font-bold text-white text-xl lg:text-2xl">
+                            Web Programming Laboratory Assistant
+                        </h1>
+                        <h3 class="font-bold text-bluesky text-lg lg:text-xl">
+                            Mathematics Department of Malang Islamic State University - Full
+                            Time
+                        </h3>
+                        <p class="italic text-white text-base">August - December 2023</p>
+                    </div>
+                </div>
+                <div class="md:mt-5 w-full text-base text-white overflow-hidden">
+                    <ul class="ps-4 list-outside list-decimal text-justify">
+                        <li class="py-1">
+                            Participated in training and got certified to teach website creation courses using the programming languages such as HTML, CSS, Javascript, SQL and PHP
+                        </li>
+                        <li class="py-1">
+                            Provided direction in learning materials, quizzes, exams, and final assignments to students.
+                        </li>
+                        <li class="py-1">
+                            Conducted thorough corrections and evaluations of the performance of each student.
+                        </li>
+                    </ul>
+                </div>
+            </div>
             <div class="item-tech bg-[#56585d] hover:bg-slate-600 mb-11 p-8 md:h-48 md:p-11 rounded-xl" data-aos="zoom-in">
                 <div class="flex flex-col md:flex-row items-center w-full">
                     <img src="@img/bangkit-logo.jpg" alt="" class="h-28" />
@@ -148,8 +176,7 @@ export default {
                 <div class="md:mt-5 px-6 w-full text-base text-white">
                     <ul class="list-outside list-decimal">
                         <li class="py-1">
-                            Created and built websites using programming languages such as
-                            HTML, CSS, and JavaScript.
+                            Developed a website using Laravel and Bootstrap.
                         </li>
                         <li class="py-1">Built and managed databases for websites.</li>
                         <li class="py-1">
@@ -169,13 +196,13 @@ export default {
                     <img src="@img/logo_uin.png" alt="" class="mx-auto h-32" />
                     <div class="flex justify-center flex-col md:ps-5 tracking-wider py-2">
                         <h1 class="font-bold text-white text-xl lg:text-2xl">
-                            Laboratory Assistant Computer Programming I
+                            Python Programming Practicum Lab Assistant
                         </h1>
                         <h3 class="font-bold text-bluesky text-lg lg:text-xl">
                             Mathematics Department of Malang Islamic State University - Full
                             Time
                         </h3>
-                        <p class="italic text-white text-base">March - June 2023</p>
+                        <p class="italic text-white text-base">February - June 2023</p>
                     </div>
                 </div>
                 <div class="md:mt-5 w-full text-base text-white overflow-hidden">
