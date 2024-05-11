@@ -4,6 +4,15 @@ export default {
     return {
       activeTab: 1,
       items: [
+       {
+          id: 1,
+          name: 'Kopi Studio 20',
+          imageUrl: 'https://github.com/hildazaqya/vue3-portfolio/blob/main/src/img/kopi-studio.png?raw=true',
+          status: 'This website contains a brief description and my personal experiences.',
+          techStack: 'React JS, Tailwind CSS',
+          github: 'https://github.com/hildazaqya/kopstud-react-tailwind/tree/main/kopstud-react',
+          demo: 'https://hildazaqya.github.io/project-dicoding-v1/'
+        },
         {
           id: 1,
           name: 'Portfolio Website',
@@ -80,7 +89,7 @@ export default {
     <div class="md:grid-cols-2 lg:grid-cols-3 grid-cols-1 grid mt-8 mb-12 md:my-8 lg:px-10 gap-6 px-5" data-aos="zoom-in">
       <div v-for="item in items" :key="item.id">
       <div
-        class="flex flex-col overflow-hidden hover:-translate-y-3 cursor-pointer max-w-full md:max-w-[400px] md:h-[492px] bg-gray-700 rounded-xl"
+        class="flex flex-col overflow-hidden hover:-translate-y-3 cursor-pointer max-w-full md:max-w-[400px] md:max-h-[492px] bg-gray-700 rounded-xl"
         id="portfolio-website">
         <img :src="item.imageUrl" class="object-cover bg-cover w-full h-60" />
         <div class="w-full flex flex-col p-4 justify-start mt-1">
