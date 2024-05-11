@@ -86,7 +86,7 @@ export default {
                         commitment to learning from experts, I aspire to provide valuable
                         and high-quality contributions to upcoming projects.
                     </p>
-                    <img src="@img/foto-hilda-3.jpeg" alt=""
+                    <img src="@img/foto-hilda-4.jpeg" alt="ProfileHilda"
                         class="mx-auto my-5 rounded-3xl lg:-mt-5 lg:ml-16 h-[320px] w-[250px]" />
                 </div>
             </div>
