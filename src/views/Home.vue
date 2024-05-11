@@ -3,7 +3,7 @@
     class="min-h-[65vh] flex-col-reverse md:min-h-[80vh] gap-8 md:gap-36 w-screen bg-blacky flex md:flex-row items-center justify-center"
     id="home">
     <div class="text-center justify-start flex flex-col md:text-left" data-aos="fade-down">
-      <h2 class="text-bluesky text-lg px py-1">Hello Friends, I'm</h2>
+      <h2 class="text-bluesky text-lg px py-1">Hi Folks! I'm</h2>
       <h1 class="font-bold text-4xl text-white py-1">Hilda Zaqya</h1>
       <h2
         class="typewrite text-bluesky text-bold text-lg py-1 text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-cyan-500"
