@@ -55,7 +55,7 @@
       </div>
     </div>
     <div class="flex justify-center">
-      <img src="@img/pict-hilda.jpg" class="rounded-full bg-cover border-4 pict border-bluesky" width="350" height="350"
+      <img src="@img/pict-hilda.jpg" alt="pictureHome" class="rounded-full bg-cover border-4 pict border-bluesky" width="350" height="350"
         style="
             box-shadow: rgba(79, 192, 208, 0.44) 0px 0px 73px -9px;" data-aos="flip-left" data-aos-duration="1500" />
     </div>
