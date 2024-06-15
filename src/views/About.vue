@@ -6,51 +6,56 @@ export default {
             techstack: [
                 {
                     id: 1,
+                    imageUrl: "https://img.icons8.com/?size=240&id=yUdJlcKanVbh&format=png",
+                    name: "Next JS",
+                },
+                {
+                    id: 2,
                     imageUrl: "https://cdn.worldvectorlogo.com/logos/react-2.svg",
                     name: "React JS",
                 },
                 {
-                    id: 2,
+                    id: 3,
                     imageUrl:"https://img.icons8.com/?size=512&id=rY6agKizO9eb&format=png",
                     name: "VueJS",
                 },
                 {
-                    id: 3,
+                    id: 4,
                     imageUrl: "https://cdn.worldvectorlogo.com/logos/laravel-2.svg",
                     name: "Laravel",
                 },
                 {
-                    id: 4,
+                    id: 5,
                     imageUrl: "https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg",
                     name: "Tailwind CSS",
                 },
                 {
-                    id: 5,
+                    id: 6,
                     imageUrl: "https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg",
                     name: "Bootstrap",
                 },
                 {
-                    id: 6,
+                    id: 7,
                     imageUrl: "https://cdn-icons-png.flaticon.com/512/1051/1051277.png",
                     name: "HTML5",
                 },
                 {
-                    id: 7,
+                    id: 8,
                     imageUrl: "https://cdn-icons-png.flaticon.com/512/732/732190.png",
                     name: "CSS3",
                 },
                 {
-                    id: 8,
+                    id: 9,
                     imageUrl:"https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png",
                     name: "JavaScript",
                 },
                 {
-                    id: 9,
+                    id: 10,
                     imageUrl: "https://cdn.worldvectorlogo.com/logos/python-5.svg",
                     name: "Python",
                 },
                 {
-                    id: 10,
+                    id: 11,
                     imageUrl: "https://cdn.worldvectorlogo.com/logos/mysql-logo.svg",
                     name: "MySQL",
                 },

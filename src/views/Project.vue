@@ -4,11 +4,20 @@ export default {
     return {
       activeTab: 1,
       items: [
+      {
+          id: 1,
+          name: 'RORONOA.NET',
+          imageUrl: 'https://github.com/hildazaqya/vue3-portfolio/blob/main/src/img/roronoa-net.png?raw=true',
+          status: 'This website features a detailed profile of  coffee shop and offers a wide selection of coffee products for sale.',
+          techStack: 'Next JS, Tailwind CSS',
+          github: 'https://github.com/hildazaqya/final-project',
+          demo: 'https://roronoa-net.vercel.app/'
+        },
        {
           id: 1,
           name: 'Kopi Studio 20',
           imageUrl: 'https://github.com/hildazaqya/vue3-portfolio/blob/main/src/img/kopi-studio.png?raw=true',
-          status: 'This website contains a brief description and my personal experiences.',
+          status: 'This website features a detailed profile of  coffee shop and offers a wide selection of coffee products for sale.',
           techStack: 'React JS, Tailwind CSS',
           github: 'https://github.com/hildazaqya/kopstud-react-tailwind/tree/main/kopstud-react',
           demo: 'https://hildazaqya.github.io/project-dicoding-v1/'
