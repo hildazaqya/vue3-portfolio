@@ -8,7 +8,7 @@ export default {
           id: 1,
           name: 'RORONOA.NET',
           imageUrl: 'https://github.com/hildazaqya/vue3-portfolio/blob/main/src/img/roronoa-net.png?raw=true',
-          status: 'This website features a detailed profile of  coffee shop and offers a wide selection of coffee products for sale.',
+          status:'This website provides comprehensive information on a wide range of movies, with data sourced from the TMDB API.',
           techStack: 'Next JS, Tailwind CSS',
           github: 'https://github.com/hildazaqya/final-project',
           demo: 'https://roronoa-net.vercel.app/'
@@ -119,4 +119,5 @@ export default {
       </div>
     </div>
   </div>
-</main></template>
+</main>
+</template>
