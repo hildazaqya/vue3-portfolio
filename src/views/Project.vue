@@ -6,6 +6,24 @@ export default {
       items: [
       {
           id: 1,
+          name: 'A.costudioindonesia',
+          imageUrl: 'https://github.com/hildazaqya/vue3-portfolio/blob/main/src/img/acostudioindonesia.png?raw=true',
+          status:'This website is a portfolio website for building design and construction services.',
+          techStack: 'Next JS, Tailwind CSS',
+          github: 'https://github.com/hildazaqya/acostudio',
+          demo: 'https://acostudioindonesia.vercel.app/'
+        },
+        {
+          id: 1,
+          name: 'Math Quiz',
+          imageUrl: 'https://github.com/hildazaqya/vue3-portfolio/blob/main/src/img/mathquiz.png?raw=true',
+          status:'Trivia Quiz Built By Using Opentdb API.',
+          techStack: 'React, Tailwind CSS',
+          github: 'https://github.com/hildazaqya/mathquiz',
+          demo: 'https://mathquiz-jet.vercel.app//'
+        },
+      {
+          id: 1,
           name: 'RORONOA.NET',
           imageUrl: 'https://github.com/hildazaqya/vue3-portfolio/blob/main/src/img/roronoa-net.png?raw=true',
           status:'This website provides comprehensive information on a wide range of movies, with data sourced from the TMDB API.',
@@ -98,7 +116,7 @@ export default {
     <div class="md:grid-cols-2 lg:grid-cols-3 grid-cols-1 grid mt-8 mb-12 md:my-8 lg:px-10 gap-6 px-5" data-aos="zoom-in">
       <div v-for="item in items" :key="item.id">
       <div
-        class="flex flex-col overflow-hidden hover:-translate-y-3 cursor-pointer max-w-full md:max-w-[400px] md:max-h-[492px] bg-gray-700 rounded-xl"
+        class="flex flex-col overflow-hidden hover:-translate-y-3 cursor-pointer max-w-full md:max-w-[400px] bg-gray-700 rounded-xl"
         id="portfolio-website">
         <img :src="item.imageUrl" class="object-cover bg-cover w-full h-60" />
         <div class="w-full flex flex-col p-4 justify-start mt-1">
