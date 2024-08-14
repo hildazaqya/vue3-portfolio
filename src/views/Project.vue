@@ -14,7 +14,7 @@ export default {
           demo: 'https://acostudioindonesia.vercel.app/'
         },
         {
-          id: 1,
+          id: 2,
           name: 'Math Quiz',
           imageUrl: 'https://github.com/hildazaqya/vue3-portfolio/blob/main/src/img/mathquiz.png?raw=true',
           status:'Trivia Quiz Built By Using Opentdb API.',
@@ -23,7 +23,7 @@ export default {
           demo: 'https://mathquiz-jet.vercel.app//'
         },
       {
-          id: 1,
+          id: 3,
           name: 'RORONOA.NET',
           imageUrl: 'https://github.com/hildazaqya/vue3-portfolio/blob/main/src/img/roronoa-net.png?raw=true',
           status:'This website provides comprehensive information on a wide range of movies, with data sourced from the TMDB API.',
@@ -32,7 +32,7 @@ export default {
           demo: 'https://roronoa-net.vercel.app/'
         },
        {
-          id: 2,
+          id: 4,
           name: 'Kopi Studio 20',
           imageUrl: 'https://github.com/hildazaqya/vue3-portfolio/blob/main/src/img/kopi-studio.png?raw=true',
           status: 'This website features a detailed profile of  coffee shop and offers a wide selection of coffee products for sale.',
@@ -41,7 +41,7 @@ export default {
           demo: 'https://hildazaqya.github.io/project-dicoding-v1/'
         },
         {
-          id: 3,
+          id: 5,
           name: 'Portfolio Website',
           imageUrl: 'https://github.com/hildazaqya/vue3-portfolio/blob/main/src/img/project_hildawebsite.jpg?raw=true',
           status: 'This website contains a brief description and my personal experiences.',
@@ -50,7 +50,7 @@ export default {
           demo: 'https://hildazaqya.vercel.app/'
         },
         {
-          id: 4,
+          id: 6,
           name: 'Goals Academy',
           imageUrl: 'https://github.com/hildazaqya/vue3-portfolio/blob/main/src/img/project_goalsacademy.jpg?raw=true',
           status: 'Goals Academy is a service business that has a guidance program product for the preparation, writing and material of thesis.',
@@ -59,7 +59,7 @@ export default {
           demo: 'https://goalsacademy.id'
         },
         {
-          id: 5,
+          id: 7,
           name: 'Helyoulips',
           imageUrl: 'https://github.com/hildazaqya/vue3-portfolio/blob/main/src/img/helyoulips.jpg?raw=true',
           status: 'Helyoulips is an e-commerce website that sells beauty products. This website was created for the final project of a web programming course.',
@@ -68,7 +68,7 @@ export default {
           demo: 'https://helyoulips.000webhostapp.com/'
         },
         {
-          id: 6,
+          id: 8,
           name: 'Komparasi Algoritma SVM dan Decision Tree untuk Klasifikasi Penyakit Strok',
           imageUrl: 'https://github.com/hildazaqya/vue3-portfolio/blob/main/src/img/project_svmdecisiontree.jpg?raw=true',
           status: 'This research employs a data mining approach and is created to fulfill the final assignment of the Computer Selecta Capstone course.',
@@ -77,7 +77,7 @@ export default {
           demo: 'null'
         },
         {
-          id: 7,
+          id: 9,
           name: 'Klasifikasi Laporan Masyarakat Kota Malang Menggunakan Metode Naive Bayes',
           imageUrl: 'https://github.com/hildazaqya/vue3-portfolio/blob/main/src/img/project_naivebayes.jpg?raw=true',
           status: 'This research utilizes a text mining approach and is created to fulfill the final assignment of the fieldwork internship course.',
