@@ -67,7 +67,7 @@ export default {
   name: 'Home',
   data() {
     return {
-      toRotate: ["Front End Developer", "Mathematics Student", "Data Enthusiast", "ML Enthusiast"],
+      toRotate: ["Front End Developer", "Mathematics Student", "Data Analysis Enthusiast", "Web Development Enthusiast"],
       period: 2000,
       txt: '',
       loopNum: 0,
